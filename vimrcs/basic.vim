@@ -43,6 +43,10 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map escape to jj
+inoremap jj <esc>
+vnoremap jj <esc>
+
 " Sets how many lines of history VIM has to remember
 set history=500
 
